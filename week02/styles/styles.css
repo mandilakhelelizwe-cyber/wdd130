@@ -1,3 +1,4 @@
+/* Body & Layout */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +9,7 @@ header {
     background-color: #333;
 }
 
+/* Nav rules required by audit */
 nav {
     background-color: #222;
     padding: 10px;
@@ -20,6 +22,7 @@ nav a {
     text-decoration: none;
 }
 
+/* Main content area */
 main {
     max-width: 840px;
     margin: 0 auto;
@@ -30,13 +33,16 @@ h1 {
     color: #1b365d;
 }
 
+/* Profile image inside main */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #ccc;
     padding: 5px;
     box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
 }
 
+/* Aside section */
 aside {
     width: 20rem;
     margin: 1rem auto;
@@ -52,10 +58,12 @@ aside img {
     height: auto;
 }
 
+/* Paragraph padding reset */
 p {
     padding: 0;
 }
 
+/* Footer rules */
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
